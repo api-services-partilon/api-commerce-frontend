@@ -30,6 +30,7 @@ const Button: React.FC<ButtonProps> = ({
                 disabled:cursor-not-allowed
                 rounded-lg
                 hover:opacity-80
+                hover:cursor-pointer
                 transition
                 w-full
                 ${ outline ? 'bg-white' : 'bg-rose-500' }
