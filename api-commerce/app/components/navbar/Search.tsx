@@ -45,6 +45,8 @@ const Search = () => {
         if (guestCount) {
             return `${guestCount} Guests`
         }
+
+        return 'Add Guests'
     }, [guestCount]);
 
     return (
